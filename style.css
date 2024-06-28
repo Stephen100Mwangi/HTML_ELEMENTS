@@ -1,0 +1,31 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+img{
+    height: 240px;
+    width: 200px;
+}
+.title{
+    color: red;
+}
+figcaption{
+    color: green;
+    font-style: italic;
+}
+progress::-webkit-progress-value{
+    background-color: gold;
+    border-radius: 10px;
+}
+progress::-moz-progress-bar{
+    background-color: brown;
+    border-radius: 5px;
+}
